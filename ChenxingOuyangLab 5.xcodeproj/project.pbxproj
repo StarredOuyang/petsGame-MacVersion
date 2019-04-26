@@ -1,0 +1,562 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A90D824E1E86EA3E005BA58A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90D824D1E86EA3E005BA58A /* AppDelegate.swift */; };
+		A90D82501E86EA3E005BA58A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90D824F1E86EA3E005BA58A /* ViewController.swift */; };
+		A90D82521E86EA3E005BA58A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A90D82511E86EA3E005BA58A /* Assets.xcassets */; };
+		A90D82551E86EA3E005BA58A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A90D82531E86EA3E005BA58A /* Main.storyboard */; };
+		A90D82601E86EA3F005BA58A /* ChenxingOuyangLab_5Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90D825F1E86EA3F005BA58A /* ChenxingOuyangLab_5Tests.swift */; };
+		A90D826B1E86EA3F005BA58A /* ChenxingOuyangLab_5UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90D826A1E86EA3F005BA58A /* ChenxingOuyangLab_5UITests.swift */; };
+		A90D827D1E86F245005BA58A /* DisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90D827C1E86F245005BA58A /* DisplayView.swift */; };
+		A90D827F1E86F289005BA58A /* PetPalyFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90D827E1E86F289005BA58A /* PetPalyFeed.swift */; };
+		A90D82811E872724005BA58A /* hahaha.wav in Resources */ = {isa = PBXBuildFile; fileRef = A90D82801E872724005BA58A /* hahaha.wav */; };
+		A90D82831E872896005BA58A /* hic.wav in Resources */ = {isa = PBXBuildFile; fileRef = A90D82821E872896005BA58A /* hic.wav */; };
+		A90D82851E872CC4005BA58A /* Dogsound.wav in Resources */ = {isa = PBXBuildFile; fileRef = A90D82841E872CC4005BA58A /* Dogsound.wav */; };
+		A90D828A1E872D66005BA58A /* Fishsound.wav in Resources */ = {isa = PBXBuildFile; fileRef = A90D82861E872D66005BA58A /* Fishsound.wav */; };
+		A90D828B1E872D66005BA58A /* Bunnysound.wav in Resources */ = {isa = PBXBuildFile; fileRef = A90D82871E872D66005BA58A /* Bunnysound.wav */; };
+		A90D828C1E872D66005BA58A /* Catsound.wav in Resources */ = {isa = PBXBuildFile; fileRef = A90D82881E872D66005BA58A /* Catsound.wav */; };
+		A90D828D1E872D66005BA58A /* Birdsound.wav in Resources */ = {isa = PBXBuildFile; fileRef = A90D82891E872D66005BA58A /* Birdsound.wav */; };
+		A90D828F1E89A720005BA58A /* hello.wav in Resources */ = {isa = PBXBuildFile; fileRef = A90D828E1E89A720005BA58A /* hello.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A90D825C1E86EA3E005BA58A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A90D82421E86EA3E005BA58A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A90D82491E86EA3E005BA58A;
+			remoteInfo = "ChenxingOuyangLab 5";
+		};
+		A90D82671E86EA3F005BA58A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A90D82421E86EA3E005BA58A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A90D82491E86EA3E005BA58A;
+			remoteInfo = "ChenxingOuyangLab 5";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A90D824A1E86EA3E005BA58A /* ChenxingOuyangLab 5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ChenxingOuyangLab 5.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A90D824D1E86EA3E005BA58A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A90D824F1E86EA3E005BA58A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A90D82511E86EA3E005BA58A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A90D82541E86EA3E005BA58A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A90D82561E86EA3E005BA58A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A90D825B1E86EA3E005BA58A /* ChenxingOuyangLab 5Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ChenxingOuyangLab 5Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A90D825F1E86EA3F005BA58A /* ChenxingOuyangLab_5Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChenxingOuyangLab_5Tests.swift; sourceTree = "<group>"; };
+		A90D82611E86EA3F005BA58A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A90D82661E86EA3F005BA58A /* ChenxingOuyangLab 5UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ChenxingOuyangLab 5UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A90D826A1E86EA3F005BA58A /* ChenxingOuyangLab_5UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChenxingOuyangLab_5UITests.swift; sourceTree = "<group>"; };
+		A90D826C1E86EA3F005BA58A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A90D827C1E86F245005BA58A /* DisplayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DisplayView.swift; path = ../DisplayView.swift; sourceTree = "<group>"; };
+		A90D827E1E86F289005BA58A /* PetPalyFeed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PetPalyFeed.swift; path = ../PetPalyFeed.swift; sourceTree = "<group>"; };
+		A90D82801E872724005BA58A /* hahaha.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hahaha.wav; sourceTree = "<group>"; };
+		A90D82821E872896005BA58A /* hic.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hic.wav; sourceTree = "<group>"; };
+		A90D82841E872CC4005BA58A /* Dogsound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Dogsound.wav; sourceTree = "<group>"; };
+		A90D82861E872D66005BA58A /* Fishsound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Fishsound.wav; sourceTree = "<group>"; };
+		A90D82871E872D66005BA58A /* Bunnysound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Bunnysound.wav; sourceTree = "<group>"; };
+		A90D82881E872D66005BA58A /* Catsound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Catsound.wav; sourceTree = "<group>"; };
+		A90D82891E872D66005BA58A /* Birdsound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Birdsound.wav; sourceTree = "<group>"; };
+		A90D828E1E89A720005BA58A /* hello.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hello.wav; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A90D82471E86EA3E005BA58A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A90D82581E86EA3E005BA58A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A90D82631E86EA3F005BA58A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A90D82411E86EA3E005BA58A = {
+			isa = PBXGroup;
+			children = (
+				A90D824C1E86EA3E005BA58A /* ChenxingOuyangLab 5 */,
+				A90D825E1E86EA3E005BA58A /* ChenxingOuyangLab 5Tests */,
+				A90D82691E86EA3F005BA58A /* ChenxingOuyangLab 5UITests */,
+				A90D824B1E86EA3E005BA58A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A90D824B1E86EA3E005BA58A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A90D824A1E86EA3E005BA58A /* ChenxingOuyangLab 5.app */,
+				A90D825B1E86EA3E005BA58A /* ChenxingOuyangLab 5Tests.xctest */,
+				A90D82661E86EA3F005BA58A /* ChenxingOuyangLab 5UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A90D824C1E86EA3E005BA58A /* ChenxingOuyangLab 5 */ = {
+			isa = PBXGroup;
+			children = (
+				A90D827E1E86F289005BA58A /* PetPalyFeed.swift */,
+				A90D82861E872D66005BA58A /* Fishsound.wav */,
+				A90D82871E872D66005BA58A /* Bunnysound.wav */,
+				A90D82881E872D66005BA58A /* Catsound.wav */,
+				A90D82891E872D66005BA58A /* Birdsound.wav */,
+				A90D828E1E89A720005BA58A /* hello.wav */,
+				A90D82821E872896005BA58A /* hic.wav */,
+				A90D82841E872CC4005BA58A /* Dogsound.wav */,
+				A90D82801E872724005BA58A /* hahaha.wav */,
+				A90D827C1E86F245005BA58A /* DisplayView.swift */,
+				A90D824D1E86EA3E005BA58A /* AppDelegate.swift */,
+				A90D824F1E86EA3E005BA58A /* ViewController.swift */,
+				A90D82511E86EA3E005BA58A /* Assets.xcassets */,
+				A90D82531E86EA3E005BA58A /* Main.storyboard */,
+				A90D82561E86EA3E005BA58A /* Info.plist */,
+			);
+			path = "ChenxingOuyangLab 5";
+			sourceTree = "<group>";
+		};
+		A90D825E1E86EA3E005BA58A /* ChenxingOuyangLab 5Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A90D825F1E86EA3F005BA58A /* ChenxingOuyangLab_5Tests.swift */,
+				A90D82611E86EA3F005BA58A /* Info.plist */,
+			);
+			path = "ChenxingOuyangLab 5Tests";
+			sourceTree = "<group>";
+		};
+		A90D82691E86EA3F005BA58A /* ChenxingOuyangLab 5UITests */ = {
+			isa = PBXGroup;
+			children = (
+				A90D826A1E86EA3F005BA58A /* ChenxingOuyangLab_5UITests.swift */,
+				A90D826C1E86EA3F005BA58A /* Info.plist */,
+			);
+			path = "ChenxingOuyangLab 5UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A90D82491E86EA3E005BA58A /* ChenxingOuyangLab 5 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A90D826F1E86EA3F005BA58A /* Build configuration list for PBXNativeTarget "ChenxingOuyangLab 5" */;
+			buildPhases = (
+				A90D82461E86EA3E005BA58A /* Sources */,
+				A90D82471E86EA3E005BA58A /* Frameworks */,
+				A90D82481E86EA3E005BA58A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ChenxingOuyangLab 5";
+			productName = "ChenxingOuyangLab 5";
+			productReference = A90D824A1E86EA3E005BA58A /* ChenxingOuyangLab 5.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A90D825A1E86EA3E005BA58A /* ChenxingOuyangLab 5Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A90D82721E86EA3F005BA58A /* Build configuration list for PBXNativeTarget "ChenxingOuyangLab 5Tests" */;
+			buildPhases = (
+				A90D82571E86EA3E005BA58A /* Sources */,
+				A90D82581E86EA3E005BA58A /* Frameworks */,
+				A90D82591E86EA3E005BA58A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A90D825D1E86EA3E005BA58A /* PBXTargetDependency */,
+			);
+			name = "ChenxingOuyangLab 5Tests";
+			productName = "ChenxingOuyangLab 5Tests";
+			productReference = A90D825B1E86EA3E005BA58A /* ChenxingOuyangLab 5Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A90D82651E86EA3F005BA58A /* ChenxingOuyangLab 5UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A90D82751E86EA3F005BA58A /* Build configuration list for PBXNativeTarget "ChenxingOuyangLab 5UITests" */;
+			buildPhases = (
+				A90D82621E86EA3F005BA58A /* Sources */,
+				A90D82631E86EA3F005BA58A /* Frameworks */,
+				A90D82641E86EA3F005BA58A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A90D82681E86EA3F005BA58A /* PBXTargetDependency */,
+			);
+			name = "ChenxingOuyangLab 5UITests";
+			productName = "ChenxingOuyangLab 5UITests";
+			productReference = A90D82661E86EA3F005BA58A /* ChenxingOuyangLab 5UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A90D82421E86EA3E005BA58A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "ouyang chenxing";
+				TargetAttributes = {
+					A90D82491E86EA3E005BA58A = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					A90D825A1E86EA3E005BA58A = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A90D82491E86EA3E005BA58A;
+					};
+					A90D82651E86EA3F005BA58A = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A90D82491E86EA3E005BA58A;
+					};
+				};
+			};
+			buildConfigurationList = A90D82451E86EA3E005BA58A /* Build configuration list for PBXProject "ChenxingOuyangLab 5" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A90D82411E86EA3E005BA58A;
+			productRefGroup = A90D824B1E86EA3E005BA58A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A90D82491E86EA3E005BA58A /* ChenxingOuyangLab 5 */,
+				A90D825A1E86EA3E005BA58A /* ChenxingOuyangLab 5Tests */,
+				A90D82651E86EA3F005BA58A /* ChenxingOuyangLab 5UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A90D82481E86EA3E005BA58A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A90D828B1E872D66005BA58A /* Bunnysound.wav in Resources */,
+				A90D828D1E872D66005BA58A /* Birdsound.wav in Resources */,
+				A90D828C1E872D66005BA58A /* Catsound.wav in Resources */,
+				A90D828F1E89A720005BA58A /* hello.wav in Resources */,
+				A90D82521E86EA3E005BA58A /* Assets.xcassets in Resources */,
+				A90D82551E86EA3E005BA58A /* Main.storyboard in Resources */,
+				A90D828A1E872D66005BA58A /* Fishsound.wav in Resources */,
+				A90D82811E872724005BA58A /* hahaha.wav in Resources */,
+				A90D82831E872896005BA58A /* hic.wav in Resources */,
+				A90D82851E872CC4005BA58A /* Dogsound.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A90D82591E86EA3E005BA58A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A90D82641E86EA3F005BA58A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A90D82461E86EA3E005BA58A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A90D827D1E86F245005BA58A /* DisplayView.swift in Sources */,
+				A90D82501E86EA3E005BA58A /* ViewController.swift in Sources */,
+				A90D824E1E86EA3E005BA58A /* AppDelegate.swift in Sources */,
+				A90D827F1E86F289005BA58A /* PetPalyFeed.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A90D82571E86EA3E005BA58A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A90D82601E86EA3F005BA58A /* ChenxingOuyangLab_5Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A90D82621E86EA3F005BA58A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A90D826B1E86EA3F005BA58A /* ChenxingOuyangLab_5UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A90D825D1E86EA3E005BA58A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A90D82491E86EA3E005BA58A /* ChenxingOuyangLab 5 */;
+			targetProxy = A90D825C1E86EA3E005BA58A /* PBXContainerItemProxy */;
+		};
+		A90D82681E86EA3F005BA58A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A90D82491E86EA3E005BA58A /* ChenxingOuyangLab 5 */;
+			targetProxy = A90D82671E86EA3F005BA58A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A90D82531E86EA3E005BA58A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A90D82541E86EA3E005BA58A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A90D826D1E86EA3F005BA58A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A90D826E1E86EA3F005BA58A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		A90D82701E86EA3F005BA58A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "ChenxingOuyangLab 5/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "oycx.ChenxingOuyangLab-5";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A90D82711E86EA3F005BA58A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "ChenxingOuyangLab 5/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "oycx.ChenxingOuyangLab-5";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A90D82731E86EA3F005BA58A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "ChenxingOuyangLab 5Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "oycx.ChenxingOuyangLab-5Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChenxingOuyangLab 5.app/Contents/MacOS/ChenxingOuyangLab 5";
+			};
+			name = Debug;
+		};
+		A90D82741E86EA3F005BA58A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "ChenxingOuyangLab 5Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "oycx.ChenxingOuyangLab-5Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChenxingOuyangLab 5.app/Contents/MacOS/ChenxingOuyangLab 5";
+			};
+			name = Release;
+		};
+		A90D82761E86EA3F005BA58A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "ChenxingOuyangLab 5UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "oycx.ChenxingOuyangLab-5UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "ChenxingOuyangLab 5";
+			};
+			name = Debug;
+		};
+		A90D82771E86EA3F005BA58A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "ChenxingOuyangLab 5UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "oycx.ChenxingOuyangLab-5UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "ChenxingOuyangLab 5";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A90D82451E86EA3E005BA58A /* Build configuration list for PBXProject "ChenxingOuyangLab 5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A90D826D1E86EA3F005BA58A /* Debug */,
+				A90D826E1E86EA3F005BA58A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A90D826F1E86EA3F005BA58A /* Build configuration list for PBXNativeTarget "ChenxingOuyangLab 5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A90D82701E86EA3F005BA58A /* Debug */,
+				A90D82711E86EA3F005BA58A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A90D82721E86EA3F005BA58A /* Build configuration list for PBXNativeTarget "ChenxingOuyangLab 5Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A90D82731E86EA3F005BA58A /* Debug */,
+				A90D82741E86EA3F005BA58A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A90D82751E86EA3F005BA58A /* Build configuration list for PBXNativeTarget "ChenxingOuyangLab 5UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A90D82761E86EA3F005BA58A /* Debug */,
+				A90D82771E86EA3F005BA58A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A90D82421E86EA3E005BA58A /* Project object */;
+}
